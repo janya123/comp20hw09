@@ -1,62 +1,62 @@
 [
    {
-      "Title": "Kal Ho Naa Ho",
-      "Artist": "Sonu Nigam",
-      "Genre": ["Desi Pop"],
-      "Released": "2003"
+      "title": "Kal Ho Naa Ho",
+      "artist": "Sonu Nigam",
+      "genre": ["Desi Pop"],
+      "released": "2003"
    },
    {
-      "Title": "Baarishein",
-      "Artist": "Anuv Jain",
-      "Genre": ["Indian Indie"],
-      "Released": "2018"
+      "title": "Baarishein",
+      "artist": "Anuv Jain",
+      "genre": ["Indian Indie"],
+      "released": "2018"
    },
    {
-      "Title": "You Right",
-      "Artist": "Doja Cat",
-      "Genre": ["R&B/Soul", "Pop"],
-      "Released": "2021"
+      "title": "You Right",
+      "artist": "Doja Cat",
+      "genre": ["R&B/Soul", "Pop"],
+      "released": "2021"
    },
    {
-      "Title": "Save Your Tears",
-      "Artist": "The Weeknd",
-      "Genre": ["Synth-pop", "Synthwave"],
-      "Released": "2020"
+      "title": "Save Your Tears",
+      "artist": "The Weeknd",
+      "genre": ["Synth-pop", "Synthwave"],
+      "released": "2020"
    },
    {
-      "Title": "Girls Want Girls",
-      "Artist": "Drake",
-      "Genre": ["Pop", "Rap"],
-      "Released": "2021"
+      "title": "Girls Want Girls",
+      "artist": "Drake",
+      "genre": ["Pop", "Rap"],
+      "released": "2021"
    },
    {
-      "Title": "Tum Hi Ho",
-      "Artist": "Arjit Singh",
-      "Genre": ["Bollywood", "Desi Pop"],
-      "Released": "2013"
+      "title": "Tum Hi Ho",
+      "artist": "Arjit Singh",
+      "genre": ["Bollywood", "Desi Pop"],
+      "released": "2013"
    },
    {
-      "Title": "Gul",
-      "Artist": "Anuv Jain",
-      "Genre": "Indian Indie",
-      "Released": "2021"
+      "title": "Gul",
+      "artist": "Anuv Jain",
+      "genre": "Indian Indie",
+      "released": "2021"
    },
    {
-      "Title": "Ceux qui revent",
-      "Artist": "Pomme",
-      "Genre": "French Pop",
-      "Released": "2017"
+      "title": "Ceux qui revent",
+      "artist": "Pomme",
+      "genre": "French Pop",
+      "released": "2017"
    },
    {
-      "Title": "One More Weekend",
-      "Artist": "Maude Latour",
-      "Genre": "Indie",
-      "Released": "2021"
+      "title": "One More Weekend",
+      "artist": "Maude Latour",
+      "genre": "Indie",
+      "released": "2021"
    },
    {
-      "Title": "Way You Walk",
-      "Artist": "Papas Fritas",
-      "Genre": ["Alternative", "Indie Rock"],
-      "Released": "2000"
+      "title": "Way You Walk",
+      "artist": "Papas Fritas",
+      "genre": ["Alternative", "Indie Rock"],
+      "released": "2000"
    }
 ]
