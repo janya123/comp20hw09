@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Songlist</title>
+<script   src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
+<script language="javascript" type="text/javascript" src="mysongs.json"></script>
+</head>
+
+<body>
+    <script language="javascript">
+        songlist = JSON.stringify(songs);
+        song = JSON.parse(songlist);
+        document.write(songlist + "<br><br>");
+
+        for (i = 0; i < 10; i++) {
+            document.write(song[i].title + "<br>");
+            document.write("Artist: " + song[i].artist + "<br>");
+            document.write("Genre: " + song[i].genre + "<br>");
+            document.write("Released " + song[i].released + "<br><br>");
+        }
+
+        function showDiv () {
+            let temp = "";
+            var e = document.getElementById("genres").value;
+            for (i = 0; i < 10; i++) {
+                if ((song[i].genre[0] == e) || (song[i].genre[1] == e)) {
+                    temp += song[i].title + "<br>";
+                }
+            }
+            document.getElementById("selected").innerHTML = temp;
+        }
+    </script>
+
+    <br>
+
+    <h2 style="font-family:sans-serif">Choose a genre to filter by: </h2>
+
+    <form>
+        <select name="genres" id="genres">
+            <option value="Pop">Pop</option>
+            <option value="Indie">Indie</option>
+            <option value="R&B/Soul">R&B/Soul</option>
+            <option value="Rap">Rap</option>
+            <option value="Bollywood">Bollywood</option>
+            <option value="Alternative">Alternative</option>
+        </select>
+        <button type = "button" onClick = showDiv()>Filter Songs</button>
+        <div id = "selected"></div>
+    </form>
+
+</body>
+</html>
